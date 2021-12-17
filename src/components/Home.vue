@@ -68,7 +68,7 @@ export default {
 
 <template>
 	<div class="fill-screen">
-		<h1>Chat Client v0.1</h1>
+		<h1>Chat Client v0.2</h1>
 		<div class="container">
 			<p>Please note: Your messages can be seen by all participants.</p>
 			<div class="chat-history">

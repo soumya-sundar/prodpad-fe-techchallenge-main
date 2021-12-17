@@ -1,5 +1,22 @@
 # ProdPad Development Test
 
+## Enhancements
+
+The Chat Client v0.2 has the following feature updates:-
+
+### To be told via the UI when someone else is typing.
+### To be able to see a history of all previous chat when they load up the client. 
+
+Additional work includes:-
+1. Added consistent code indentation.
+2. Upgraded webpack packages to latest version to fix errors while debugging.
+3. Added comments for feature enhancements.
+4. Tested across three main browsers Chrome, Firefox and Edge along with various device options. 
+
+Testing snapshots available in testing_snapshot.pdf file in the project root.
+
+The set up to run the app is the same as provided below.
+
 ## The Challenge
 
 ### Brief
