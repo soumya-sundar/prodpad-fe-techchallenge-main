@@ -5,14 +5,14 @@ import Home from '@/components/Home.vue';
 Vue.use(VueRouter);
 
 const routes = [
-    {
-        path: '/',
-        name: 'Home',
-        component: Home
-    },
+	{
+		path: '/',
+		name: 'Home',
+		component: Home
+	},
 ];
 
 export default new VueRouter({
-    mode: 'history',
-    routes,
+	mode: 'history',
+	routes,
 });

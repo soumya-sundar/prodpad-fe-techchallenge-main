@@ -29,15 +29,12 @@ module.exports = (env, argv) => {
             },
         },
         devtool: MODE === 'development' ? 'eval-source-map' : 'none',
-        devServer: {
-            contentBase: 'dist',
-            port: 1337,
-            historyApiFallback: true,
-            overlay: {
-                errors: true,
-            },
-            stats: 'errors-warnings',
-            clientLogLevel: 'silent',
+		stats: {
+		    logging: 'warn',
+		},
+    devServer: {
+			port: 1337,
+			historyApiFallback: true,
         },
         module: {
             rules: [{
