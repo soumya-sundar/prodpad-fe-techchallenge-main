@@ -32,7 +32,7 @@
 			
 			//Accumulating messages for message history.
 			if(data.input){
-				messages.push({ input: data.input, time: data.time});
+				messages.push({ input: data.input, time: data.time, notification: data.notification });
 			}
 		});
 		
